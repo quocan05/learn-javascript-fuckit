@@ -5,8 +5,6 @@ var c = a+b;
 
 var global_var = "AN";
 
-
-
 console.log("Value of c = ", c);
 
 function writeName(){
