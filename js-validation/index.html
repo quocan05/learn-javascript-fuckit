@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation</title>
+    <script src="./code.js"></script>
+</head>
+<body>
+    <form action="https://www.buzzfeed.com/tomphillips/how-gay-are-you" id="my-form" method="post" onsubmit="return checkValid()" >
+        Your name: 
+        <input type="text" id="input-name"> <br>
+        Your age: 
+        <input type="text" id="input-age"> <br>
+        <input type="submit" id="input-submit" name="goo">
+    </form>
+
+
+    <form action="" id="form-checkpassword">
+        password:
+        <input type="password" id="pass1"> <br>
+        retype password:
+        <input type="password" id="pass2"> <br>
+        <input type="button" id="check-btn" value="check now" onclick="checkPassword()"> <br>
+        <span id="notifi-check"></span>
+    </form>
+
+    <form action="https://en.wikipedia.org/wiki/Number" id="form-number" method="post" onsubmit="return checkNumeric()">
+        Enter numeric only: 
+        <input type="text" id="number-input"> 
+        <input type="submit" id="submit" value="go"> <br>
+        <span id="notifi-numbercheck"></span>
+    </form>
+    
+    <h1>Email Validation</h1> <br>
+    Enter email:
+    <input type="text" id="input-email">
+    <input type="button" id="check-email" value="Check" onclick="checkEmail()"> <br>
+    <span id="noti-email"></span>
+    
+</body>
+</html>
