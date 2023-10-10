@@ -11,7 +11,7 @@ function getCookie()
 {  
     if(document.cookie.length!=0)  
     {  
-   //Invoking key-value pair stored in a cookie  
+    //Invoking key-value pair stored in a cookie  
     alert(document.cookie);  
     }  
     else  
@@ -45,4 +45,3 @@ function getCookieJSON(){
         alert("Cookie not available");  
     }  
 }
-
